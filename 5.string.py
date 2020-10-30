@@ -26,11 +26,72 @@ print('\nStart: ', name[0:])
 print('\nEnd: ', name[:3])
 
 
+name = 'vani'
+
 print('\nUpper: ', name.upper())
+
+
+# String scape char:
+print('\nVani\'s')
+print('\tOne tab spcae')
+
+print('\nname.capitalize(): ', name.capitalize())
+print('\nname.upper(): ', name.upper(), ' Single Letter: ', name[1].upper())
+
+name = 'Hello hi how are you hi again'
+print('\n n a m e . c o u n t ( ) : ', name.count('hi'))
+
+# name.index(): Ye indivial string char ki index postion find karne ke liye hai.
+
+# name.isalpha(): True if string is only contain alphabets
+# name.isalnum()
+# name.isdecimal() vs name.isdigit()
+# name.replace()
+
+name = 'Diff. b/w name.isdecimal() vs name.isdigit() vs name.isnumeric()'
+print(name.split(' '))
+
+
+# string with format
+name = input('\nEnter your name: ')
+course = 'Python'
+address = 'India'
+
+# + concatanation sign use to join two strings togater
+
+# print('\nHi, ' + name + ' I\'m learning ' + course)
+print('''
+--------------------------------
+        {0}'s Details
+--------------------------------
+Name: {0}
+Course: {1}
+Address: {2}  
+'''.format(name, course, address))
+
+
+
+
 
 
 '''
 Question:
 
 1. Negative slicing.
+2. Diff. b/w name.isdecimal() vs name.isdigit() vs name.isnumeric()
+
+3. Create biodata using multiline string and format:
+
+------------------------------------------
+            name's Bio Data
+------------------------------------------
+My name is 
+My class is
+.
+.
+.
+.
+.
+.
+.            
 '''

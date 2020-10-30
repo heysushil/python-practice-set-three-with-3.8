@@ -11,7 +11,7 @@ Note: Single value | Multipal values
 
 3. Sequence Type:
     a. list: List changeable hai. List Box []
-    b. tuple: Non-Changable. Tuple Box (,)
+    b. tuple: Non-Changable. Tuple Box ()
 4. Mapping Type:
     a. dict: dictinary box {key:value}
         Example: {'name':'python'}
@@ -35,4 +35,4 @@ Extra Study:
 '''
 
 
-print(bool())
+print('hi')

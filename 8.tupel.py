@@ -5,7 +5,10 @@ print('\nmytuple: ', type(mytuple))
 
 # mytuple[0] = 11
 
+data = (1,2,3,['Ram','Shyam',['Ram','Shyam']])
+
 print('\nMYtuple: ', mytuple[0])
+print('\nSingle Name: ', data[-1][-1][0])
 
 '''
 Question:

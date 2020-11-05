@@ -35,13 +35,48 @@ bigdata = {
         'course' : 'ai',
         'mobile' : 9899898932,
     },
+    'seeta' : {
+        'name' : 'poorva',
+        'course' : 'ai',
+        'mobile' : 9899898932,
+    },
+    'geeta' : {
+        'name' : 'poorva',
+        'course' : 'ai',
+        'mobile' : 9899898932,
+    },
+    'meeta' : {
+        'name' : 'poorva',
+        'course' : 'ai',
+        'mobile' : 9899898932,
+    },
 }
 
 print('\nPoorva\'s coruse name:', bigdata['poorva']['course'])
 
 print('\nHi my name is {} and I\'m learning {}.'.format(bigdata['poorva']['name'], bigdata['poorva']['course']))
 
-# bigdata.
+# dict methods
+print('\nComplete Big data: \n', bigdata)
+
+# use to remove last key value from dict
+bigdata.popitem()
+
+bigdata.pop('vaani')
+
+print('\nBig data: \n', bigdata)
+
+print('\nKeys: ', bigdata.keys())
+
+print('\nValues: ', bigdata.values())
+
+mykeys = ['name', 'mobile']
+myvalues = ['vaani', 998797987]
+print(bigdata.fromkeys(mykeys, myvalues))
+
+print('\nsetdefault: ', bigdata.setdefault('hello'))
+bigdata['hello'] = 'hi'
+print('\n', bigdata.get('ram'), ' Final data: ', bigdata)
 
 '''
 Question:

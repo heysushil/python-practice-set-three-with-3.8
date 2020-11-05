@@ -57,6 +57,7 @@ print('\nPoorva\'s coruse name:', bigdata['poorva']['course'])
 print('\nHi my name is {} and I\'m learning {}.'.format(bigdata['poorva']['name'], bigdata['poorva']['course']))
 
 # dict methods
+# mynew = list(mytuple)
 print('\nComplete Big data: \n', bigdata)
 
 # use to remove last key value from dict

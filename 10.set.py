@@ -48,3 +48,15 @@ Question:
 4. diff b/w remove and discard method?
 5. diff b/w union and update method?
 '''
+
+'''
+Programms:
+
+1. Set ki copy banai hai and old set ko clear karna hai.
+
+2. Set bana hain and set ko clear karna hain then usko delete kar dena hai.
+
+3. 3 set banae hai aur inpar union, intersection, diffence activity perform karna hai.
+
+4. Set ke baki sabhi methods ko check karna hai and try karn hai.
+'''

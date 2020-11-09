@@ -24,10 +24,19 @@ otherprogramming = ['html','css','jquery']
 programming.update(otherprogramming)
 
 # programming[0]
+programming_with_development = programming.union(development)
 
-print('\nProgramming: ', programming)
+print('\nProgramming: ', programming_with_development)
+
+# programming.remove('Python')
+# programming.remove('Python')
+programming.discard('Python')
+programming.discard('Python')
+print('\nRemove: ', programming)
 
 # programming.
+
+
 
 '''
 Use these methods to complete task:

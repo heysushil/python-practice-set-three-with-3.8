@@ -123,3 +123,41 @@ print('Hello)
 #     programming.remove(name)
 #     print('\n' + name + ' is removed.')
 #     print('\nFinal programming set: ', programming)
+
+'''
+Programmes for practice:
+
+1. User se 2 input lo and check karo ki agar 1st input bada hai to useke liye message show karo otherwise second ke liye message show karo.
+
+2. Ek shoping list banao, aur iske bad me check karo ki shoping list me who iteam hai ya nahi hai jo tum shop par jane ke bad shopkeeper se puch rahe ho. Iske liye product varaible create karna and then check karna hai.
+
+Agar item list me hai then shopkeeper se uska price pucho?
+Then agar price acceptable hain means yes or not wala case?
+Then item mo purchase karo and show item bill, jisme ki-
+    1. Item purchase date
+    2. Item order number
+    3. Item Price
+    4. Iteam name
+Included ho. Is ouput ko representative way me show karna hai.
+
+3. user se name recive karna hai aur check karna hai ki agar user name me koi value deta hai to name print ho otherwise: plesa enter your name ka message show ho.
+
+4. Program bana hai ki jisme 3 alag-alag number user se lene hai aur ye following condtion bana hai:
+    a. agar first value greater hai then first user win
+    b. agar second value greater then second user win
+    c. same for thired user
+    d. agar sabhi ke number same hai then tie ka message
+    e. agar koi number galt enter hua to uska message
+    f. sath me winer user ke liye ek alag se grand message aap ke tarike se jo bhi best output show kara sako.
+
+5. Ek friend list bana hai aur agar uske sath me condtion lagana hai ki:
+    a. User kisi bhi random friend ko check karna chata hai ki kya wo party me hai ya nahi. Uski madad karo ye check karne me. 
+
+    b. Agar friend party me nahi hai then User usko party me add karna cahta hai. Uski madad karo uske friend ko party me add karne ke liye.
+
+    c. User, jis friend ko serach kar raha hai agar wo present hai to user ko uske bare me batao.
+
+    e. User ek friend ko party se nikalna chata hai uski madad karo. Aur jab wo friend se nikal jaye to user ko batao ki wo friend party se gaya.
+
+Note: In question ke liye aap ko apne hisab se soch kar program karna hai aur ye sare question ke liye abhi tak jo padha hai unhi ka use karna hai.
+'''

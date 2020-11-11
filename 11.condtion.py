@@ -124,6 +124,7 @@ print('Hello)
 #     print('\n' + name + ' is removed.')
 #     print('\nFinal programming set: ', programming)
 
+
 '''
 Programmes for practice:
 
@@ -149,6 +150,9 @@ Included ho. Is ouput ko representative way me show karna hai.
     d. agar sabhi ke number same hai then tie ka message
     e. agar koi number galt enter hua to uska message
     f. sath me winer user ke liye ek alag se grand message aap ke tarike se jo bhi best output show kara sako.
+
+    a, b, c:
+
 
 5. Ek friend list bana hai aur agar uske sath me condtion lagana hai ki:
     a. User kisi bhi random friend ko check karna chata hai ki kya wo party me hai ya nahi. Uski madad karo ye check karne me. 

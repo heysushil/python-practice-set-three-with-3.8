@@ -134,7 +134,7 @@ Programmes for practice:
 
 Agar item list me hai then shopkeeper se uska price pucho?
 Then agar price acceptable hain means yes or not wala case?
-Then item mo purchase karo and show item bill, jisme ki-
+Then item no purchase karo and show item bill, jisme ki-
     1. Item purchase date
     2. Item order number
     3. Item Price

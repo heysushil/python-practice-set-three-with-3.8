@@ -1,3 +1,15 @@
+# Shoping example:
+
+myshoping_list = ['a','b','c']
+
+shope = ['a','s','d','c','b']
+
+item = input('\nEnter your itam name: ')
+
+if item in shope:
+    print('\nYes, it\'s price is ')
+
+
 # Create list of students
 myclass = ['Ravi','Kishan','Harry','Garry']
 
@@ -38,3 +50,5 @@ if a > b:
     print('\nHello A')
 else:
     print('\nHello B')
+
+

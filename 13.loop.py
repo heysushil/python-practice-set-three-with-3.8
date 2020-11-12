@@ -81,5 +81,9 @@ Program:
     2. table end number
 
 2. 1st program me same work karna hai but user se single input lekar karna hai.
+
+3. Same 1 program decrement order me karna hai.
+
+4. Same 2nd program decerment order me karna hai.
 '''
 

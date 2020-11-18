@@ -98,12 +98,12 @@ start = int(input('\nEnter starting number: '))
 end = int(input('\nEnter end number: '))
 
 
-while 10 <= 1:
+while start <= 50:
     print(start)
     start += 1
 
 
-# print('\nstart: ', start + 1)
+print('\nstart: ', start + 1)
 
 '''
 Problem:

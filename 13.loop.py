@@ -87,3 +87,26 @@ Program:
 4. Same 2nd program decerment order me karna hai.
 '''
 
+# --------------- 1st program -----------------------
+'''
+1. User se input lekar table print karna hai. Kewal starting ke 10 numbers print karne hain. Jisme ki user se 2 input lena hai:
+    1. table start number
+    2. table end number
+'''
+
+start = int(input('\nEnter starting number: '))
+end = int(input('\nEnter end number: '))
+
+
+while 10 <= 1:
+    print(start)
+    start += 1
+
+
+# print('\nstart: ', start + 1)
+
+'''
+Problem:
+
+1. Program 1 solution me problem ki user agar start value 10 and end value 1 input karta hain then loop me problem aaygi isko kaise handel karen.
+'''

@@ -107,13 +107,13 @@ def sumFunctionWithReturnValue():
 
 
 # d. Function with arguments & with return value
-def multiplication(num1, num2):
+def multiplication(num1 = 1, num2 = 2):
     answer = num1 * num2
     return answer
 
 # function call and recive return value
-# my_multiplication_result = multiplication(20, 2)
-# print('\nmy_multiplication_result: ', my_multiplication_result)
+my_multiplication_result = multiplication(num1=10, num2=20)
+print('\nmy_multiplication_result: ', my_multiplication_result)
 
 
 '''

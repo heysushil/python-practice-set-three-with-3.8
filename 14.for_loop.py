@@ -46,6 +46,18 @@ for data in numbers:
 
     print(data)
 
+mylist = ['Poorva',2,3,4,'Python',6,7.999,[8,9],10]
+print('\nmylist len: ', len(mylist))
+
+for m in mylist:
+    if 'Poorva' == m or 'Python' == m:
+        print('Hi ', m)
+        continue
+
+    # if 'Python' == m:
+    #     print('Hi, ', m)
+    #     break
+
 
 '''
 Question:

@@ -25,3 +25,14 @@ pass_list_on_function_as_argument(mylist, [1,2,3,4,5], myinfo)
 # name = 'Vaani'
 
 # print('\nHi, {}'.format(name))
+
+def myfun(mylist):
+    print('\nType: ', type(mylist), '\nLen: ', len(mylist), '\nMylist: ', mylist)
+    
+    info = '\nType: ', type(mylist), '\nLen: ', len(mylist), '\nMylist: ', mylist
+    return info
+
+mylist = [1,'Hello',3,[4,2,1,3],5,(1,2,3,6)]
+
+result = myfun(mylist)
+print(result)

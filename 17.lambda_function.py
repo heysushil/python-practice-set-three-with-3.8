@@ -36,7 +36,3 @@ def my_lam_sum_fun(normal_a_argument):
     print('\nMy output: ', output)
 
 # call normal fucton and pass one argumet normal_a_argument
-my_lam_sum_fun(25)
-
-
-

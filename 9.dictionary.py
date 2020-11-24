@@ -27,7 +27,7 @@ print('\nMydata: ', mydata['name'])
 # multilevel dict:
 bigdata = {
     'vaani' : {
-        'course' : 'python',
+        'course' : input('\nEnter your name: '),
         'mobile' : 9899898932,
     },
     'poorva' : {
